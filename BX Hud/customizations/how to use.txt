@@ -1,0 +1,5 @@
+Drag the contents of the stuff you want inside your \bxhud\ folder, shouldn't be too hard, but I thought I'd still include instructions.
+
+####################		IMPORTANT!!!!		########################
+
+If you want to use both the health cross and the permanent 3d model, install the health cross first, and then the 3d model, otherwise the 3d model will be permanently visible on the original location (left of the health) instead of in the bottom left.
