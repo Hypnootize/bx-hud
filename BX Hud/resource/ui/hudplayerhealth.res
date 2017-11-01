@@ -80,7 +80,51 @@
 		"scaleImage"			"1"	
 		"image"					"../vgui/bleed_drop"
 		"fgcolor"				"TanDark"
-	}		
+	}	
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"ypos"					"c67"
+		"zpos"					"7"
+		"wide"					"20"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"image"					"../vgui/bleed_drop"
+		"fgcolor"				"TanDark"
+	}
+	
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"ypos"					"c67"
+		"zpos"					"7"
+		"wide"					"20"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"image"					"../vgui/bleed_drop"
+		"fgcolor"				"TanDark"
+	}
+	
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"ypos"					"c67"
+		"zpos"					"7"
+		"wide"					"20"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"image"					"../vgui/bleed_drop"
+		"fgcolor"				"TanDark"
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -127,7 +171,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"999999"
 		"ypos"					"c67"
 		"zpos"					"7"
 		"wide"					"20"

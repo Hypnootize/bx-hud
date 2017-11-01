@@ -1,27 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
-	}
 	"ServerBrowserButton"
 	{
 		"label"			"Servers"
@@ -29,22 +7,6 @@
 		"OnlyAtMenu"	"0"
 		"subimage" 		"glyph_server_browser"
 	}
-	"WatchStreamButton"
-	{
-		"label" "Streams"
-		"command" "watch_stream"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-	"QuestsButton"
-	{
-		"label" "Quests"
-		"command" "questlog"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
 		"label" "Create"
@@ -64,6 +26,30 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	
+	"NewUserForumsButton"
+	{
+		"label" ""
+		"Command"	"view_newuser_forums"
+		"subimage" 	"glyph_tutorial"
+		"OnlyAtMenu"	"1"
+	}
+	
+	"ReportBugButton"
+	{
+		"label" ""
+		"command" "engine bug"
+		"subimage" "glyph_bug"
+		"OnlyAtMenu"	"1"
+	}
+	
+	"CoachPlayersButton"
+	{
+		"label" ""
+		"command" "engine cl_coach_toggle"
+		"subimage" "glyph_commentary"
+		"OnlyAtMenu"	"1"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
@@ -82,14 +68,6 @@
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
