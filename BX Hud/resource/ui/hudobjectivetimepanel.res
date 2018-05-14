@@ -35,8 +35,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -66,8 +65,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -97,8 +95,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -128,8 +125,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -159,8 +155,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"ypos"				"22"
 		}
 	}
 	"ServerTimeLimitLabelBG"
@@ -193,8 +188,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
