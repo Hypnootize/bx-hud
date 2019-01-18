@@ -10,8 +10,8 @@
 		"x_offset" 		"0"
 		"wide" 			"f0"
 		"tall" 			"480"
-		"MeterFG" 	"White"
-		"MeterBG" 	"Gray"
+		"MeterFG" 		"White"
+		"MeterBG" 		"Gray"
 	}
 	
 	"CanteenMeterBG"

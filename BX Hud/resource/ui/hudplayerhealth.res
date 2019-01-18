@@ -80,22 +80,7 @@
 		"scaleImage"			"1"	
 		"image"					"../vgui/bleed_drop"
 		"fgcolor"				"TanDark"
-	}	
-	"PlayerStatusSlowed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusSlowed"
-		"ypos"					"c67"
-		"zpos"					"7"
-		"wide"					"20"
-		"tall"						"20"
-		"visible"					"1"
-		"enabled"				"1"
-		"scaleImage"			"1"	
-		"image"					"../vgui/bleed_drop"
-		"fgcolor"				"TanDark"
 	}
-	
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -110,7 +95,6 @@
 		"image"					"../vgui/bleed_drop"
 		"fgcolor"				"TanDark"
 	}
-	
 	"PlayerStatusGasImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -458,5 +442,19 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"ypos"					"c67"
+		"zpos"					"7"
+		"wide"					"20"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"image"					"../vgui/bleed_drop"
+		"fgcolor"				"TanDark"
 	}
 }

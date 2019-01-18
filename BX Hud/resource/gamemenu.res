@@ -4,77 +4,111 @@
 	{
 		"label"			"Servers"
 		"command"		"OpenServerBrowser"
-		"OnlyAtMenu"	"0"
-		"subimage" 		"glyph_server_browser"
+		"subimage" 		""
 	}
 	"CreateServerButton"
 	{
-		"label" "Create"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "0"
-		"subimage"	""
+		"label" 		"Create"
+		"command" 		"OpenCreateMultiplayerGameDialog"
+		"subimage" 		""
+	}
+	"CharacterSetupButton"
+	{
+		"label" 		"Loadout"
+		"command" 		"engine open_charinfo"
+		"subimage" 		""
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}	
-	"CharacterSetupButton"
-	{
-		"label" "Loadout"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
-	}
-	
-	"NewUserForumsButton"
-	{
-		"label" ""
-		"Command"	"view_newuser_forums"
-		"subimage" 	"glyph_tutorial"
-		"OnlyAtMenu"	"1"
-	}
-	
-	"ReportBugButton"
-	{
-		"label" ""
-		"command" "engine bug"
-		"subimage" "glyph_bug"
-		"OnlyAtMenu"	"1"
-	}
-	
-	"CoachPlayersButton"
-	{
-		"label" ""
-		"command" "engine cl_coach_toggle"
-		"subimage" "glyph_commentary"
-		"OnlyAtMenu"	"1"
+		"label" 		"Store"
+		"command" 		"engine open_store"
+		"subimage" 		""
 	}
 
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
+	"SettingsButton"
+	{
+		"label" 		"Options"
+		"command" 		"OpenOptionsDialog"
+		"subimage" 		""
+	}
+	"TF2SettingsButton"
+	{
+		"label" 		"Advanced"
+		"command" 		"opentf2options"
+		"subimage" 		""
+	}
+	
+	"ConsoleButton"
+	{
+		"label" 		"Console"
+		"command" 		"engine showconsole"
+		"subimage" 		""
+	}
+	"AchievementsButton"
+	{
+		"label"			""
+		"command"		"OpenAchievementsDialog"
+		"OnlyInGame"	"0"
+		"subimage" 		"glyph_achievements"
+	}
+	"NewUserForumsButton"
+	{
+		"label" 		""
+		"Command"		"view_newuser_forums"
+		"subimage" 		"glyph_tutorial"
+		"OnlyAtMenu"	"1"
+	}
+	"ReportBugButton"
+	{
+		"label" 		""
+		"command" 		"engine bug"
+		"subimage" 		"glyph_bug"
+		"OnlyAtMenu"	"1"
+	}
+	"CoachPlayersButton"
+	{
+		"label" 		""
+		"command" 		"engine cl_coach_toggle"
+		"subimage" 		"glyph_commentary"
+		"OnlyAtMenu"	"1"
+	}
+	
+	"QuitButton"
+	{
+		"label" 		"Quit"
+		"command" 		"engine replay_confirmquit"
+		"OnlyAtMenu"	"1"
+		"subimage" 		""
+	}
+
+	// ONLY IN-GAME BUTTONS
 	"CallVoteButton"
 	{
-		"label"		"V"
-		"command"	"callvote"
+		"label"			""
+		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"subimage" 		"icon_checkbox"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"M"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"subimage" 		"glyph_muted"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			"R"
+		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	
+	"DisconnectButton"
+	{
+		"label" 		"Disconnect"
+		"command" 		"engine disconnect"
+		"OnlyInGame"	"1"
+		"subimage" 		""
 	}
 }

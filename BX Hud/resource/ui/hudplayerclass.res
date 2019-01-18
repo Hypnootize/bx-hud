@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"		"20"
-		"ypos"		"r48"
+		"xpos"		"25"
+		"ypos"		"r70"
 		"zpos"		"2"
-		"wide"		"48"
-		"tall"		"48"
+		"wide"		"40"
+		"tall"		"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"../hud/class_scoutred"
@@ -62,10 +62,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"		"999"
-		"ypos"		"999"
+		"xpos"		"9"
+		"ypos"		"r60"
 		"zpos"		"1"		
-		"wide"		"100"
+		"wide"		"0" //100
 		"tall"		"50"
 		"visible"		"0"
 		"enabled"		"0"
@@ -74,15 +74,14 @@
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_3"		"../hud/character_blue_bg"
 	}
-	
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"999"
-		"ypos"			"999"
+		"xpos"			"-1"
+		"ypos"			"r60"
 		"zpos"			"1"		
-		"wide"			"109"
+		"wide"			"0" //109
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
@@ -93,7 +92,6 @@
 		"teambg_3"			"../hud/character_blue_bg_clipped"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
-	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -141,8 +139,8 @@
 				"angles_x"		"-17"
 				"angles_y"		"220"
 				"angles_z"		"-10"
-				"origin_x"		"130"
-				"origin_y"		"-2"
+				"origin_x"		"105"
+				"origin_y"		"-1"
 				"origin_z"		"-82"
 			}
 			"Sniper"

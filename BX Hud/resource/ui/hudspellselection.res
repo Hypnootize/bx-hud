@@ -2,8 +2,8 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"100"
-		"ypos"			"r38"
+		"xpos"			"c29"
+		"ypos"			"c80"
 
 		"if_killstreak_visible"
 		{
@@ -11,15 +11,31 @@
 		}
 	}
 	
+	"CanteenMeterBG"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"CanteenMeterBG"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"0"
+		"wide"						"33"
+		"tall"						"30"
+		"visible"					"1"		
+		"enabled"					"1"
+		"defaultbgcolor_override"	"0 0 0 130"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"				"999999"
+	}
+	
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"2"
+		"ypos"			"2"
 		"zpos"			"13"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -33,11 +49,12 @@
 		"fieldName"		"ActionText"
 		"font"			"TFFontSmall"
 		"labelText"		"%actiontext%"
-		"textAlignment" "west"
+		"textAlignment" "south"
 		"xpos"			"0"
-		"ypos"			"20"
-		"wide"			"100"
-		"tall"			"20"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"33"
+		"tall"			"30"
 		"fgcolor"		"255 255 255 255"
 		"visible"		"1"
 	}
@@ -48,12 +65,12 @@
 		"fieldName"		"CountText"
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%counttext%"
-		"textAlignment" "west"
-		"xpos"			"27"
-		"ypos"			"0"
+		"textAlignment" "center"
+		"xpos"			"22"
+		"ypos"			"5"
 		"zpos"			"3"
-		"wide"			"80"
-		"tall"			"24"
+		"wide"			"10"
+		"tall"			"10"
 		"fgcolor"		"255 255 255 255"
 	}
 	

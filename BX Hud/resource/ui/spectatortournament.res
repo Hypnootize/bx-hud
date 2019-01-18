@@ -2,7 +2,7 @@
 {
 	"specgui"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"specgui"
 		"wide"			"f0"
 		"tall"			"480"
@@ -143,7 +143,7 @@
 				
 				if_mvm
 				{
-					"image"			"../vgui/hud_connecting"
+					"image"		"../vgui/hud_connecting"
 				}
 			}
 			
@@ -182,7 +182,7 @@
 			
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
+				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
@@ -198,8 +198,8 @@
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width" "3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" "3"
 				
 				if_mvm
 				{
@@ -209,7 +209,7 @@
 			
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -221,7 +221,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
-				"scaleImage"		"1"
+				"scaleImage"	"1"
 
 				if_mvm
 				{
@@ -247,24 +247,6 @@
 				"fgcolor"		"255 255 255 175"
 			}
 
-			"respawntimecover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimecover"
-				"font"			"BlocksSharp64"
-				"xpos"			"15"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"24"
-				"tall"			"14"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"east"
-				"fgcolor"		"30 30 30 255"
-			}
-			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -287,18 +269,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
 				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
 			}
 		}
 	}
@@ -327,18 +298,18 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"
 		"ypos"			"50"
 		"wide"			"600"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"font"			"roboto14"
 		"fgcolor"		"255 255 255 255"
 		

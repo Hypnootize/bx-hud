@@ -1,3 +1,4 @@
+#base "../resource/crosshairs/Crosshair Fonts.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -481,194 +482,6 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 
-		"DotCircle"
-		{
-			"1"
-			{
-			"name"			"CrosshairsV3"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"0"
-			"outline"		"0"
-			}
-		}				
-		
-		"DotCircleOutline"
-		{
-			"1"
-			{
-			"name"			"CrosshairsV3"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"0"
-			"outline"		"1"
-			}
-		}		
-		
-		"xhairdotNew"
-		{
-			"1"
-			{
-			"name"			"CrosshairsV3"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"0"
-			"outline"		"0"
-			}
-		}			
-		
-		"xhairdotOutlineNew"
-		{
-			"1"
-			{
-			"name"			"CrosshairsV3"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"0"
-			"outline"		"1"
-			}
-		}
-
-		"CrossHairNormal"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrosshairV3_28_Outlined"
-		{
-			"1"
-			{
-			"name"			"CrosshairsV3"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}	
-		
-		"CrosshairV3_28_Outlined"
-		{
-			"1"
-			{
-			"name"			"CrosshairsV3"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}		
-		
-		"Crosshairs16OutlinedSmooth"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"16"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}			
-		"Crosshairs34OutlinedSmooth"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}		
-		"Crosshairs34Outlined"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"0"
-			"outline"		"1"
-			}
-		}		
-		"Crosshairs34Smooth"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"0"
-			}
-		}
-		fogCrosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28" //28 default
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-		fogCrosshairPlain
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"0"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-		"xHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-		fogCrosshairSmooth
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-
-		"xHair" 
-		{
-			"1" 
-			{
-				"name" "CrosshairsV3"
-				"tall" "10"
-				"weight" "0"
-				"antialias" "1"
-				"outline" "0"
-			}
-		}		
-		
 		"DamageFont"
 		{
 			"1"
@@ -3212,67 +3025,6 @@ Scheme
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
-		"Crosshairs16"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"16"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"Crosshairs24"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}		
-		"Crosshairs24OutlinedSmooth"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		"Crosshairs34"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		"KonrWings24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"xHairCirclePulse"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
 		"EconFontSmall"
 		{
 			"1"
@@ -3939,8 +3691,8 @@ Scheme
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		Econ.Button.Border.Default
 		{
@@ -3961,8 +3713,8 @@ Scheme
 			"image"					"loadout_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		LoadoutItemPopupBorder
 		{
@@ -6163,6 +5915,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
+		"7" "resource/ocra.ttf"
 		"8" 
 		{
 			"font" "resource/fonts/RobotoCondensed-Bold.ttf"
@@ -6172,31 +5925,6 @@ Scheme
 		{
 			"font" "resource/fonts/RobotoCondensed-Regular.ttf"
 			"name" "Roboto Condensed Regular"
-		}
-		"10" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "Formas germetricas 1"
-		}
-		"11" // Konr Wings
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
-		}
-		"12" 
-		{
-			"font" "resource/fonts/Paula.ttf"
-			"name" "Paula"
-		}
-		"13"
-		{
-		"font" "resource/fonts/crosshairsV3.ttf"
-		"name"	"CrosshairsV3"
-		}
-		"14" 
-		{
-			"font" "resource/fonts/symbol.ttf"
-			"name" "symbol"
 		}
 	}
 }

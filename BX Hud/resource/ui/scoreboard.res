@@ -24,6 +24,32 @@
 		"killstreak_width"	"12"
 		"killstreak_image_width" "12"
 	}
+	
+	"ScoreboardBG"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ScoreboardBG"
+		"xpos"			"c-263"
+		"xpos_minmode"	"c50"
+		"ypos"			"200"
+		"ypos_minmode"	"152"
+		"zpos"			"-2"
+		"wide"			"526"
+		"wide_minmode"	"257"
+		"tall"			"227"
+		"tall_minmode"	"240"
+		"visible"		"1"		
+		"enabled"		"1"
+		"defaultbgcolor_override"	"0 0 0 170"
+		"PaintBackgroundType"	"0"
+		"TextInsetX"	"999999"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -633,7 +659,7 @@
 
 	"LocalPlayerStatsPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -650,38 +676,10 @@
 			"visible"		"1"
 		}
 		
-		
-		"KillsLabel"
+		"KillsWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"KillsLabel"
-			"font"		"robotoreg40"
-			"fgcolor"	"255 255 255 130"
-			"labelText"	":"
-			"textAlignment"	"center"
-			"textinsetx"	"10"
-			"xpos"		"c-50"
-			"ypos"		"r54"	[$WIN32]
-			"zpos"		"3"
-			"wide"		"100"
-			"tall"		"50"
-			"autoResize"	"0"
-			"pinCorner"	"0"
-			"visible"	"1"
-			"enabled"	"1"
-		}						
-		"DeathsLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"	"DeathsLabel"
-			"xpos"		"999999"
-		}						
-		
-														
-		"Kills2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"	"Kills2"
+			"fieldName"	"KillsWhite"
 			"font"		"robotoreg40"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%kills%"
@@ -697,10 +695,29 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Deaths2"
+		"K-D"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Deaths2"
+			"fieldName"		"K-D"
+			"font"			"robotoreg40"
+			"fgcolor"		"255 255 255 130"
+			"labelText"		":"
+			"textAlignment"	"center"
+			"textinsetx"	"10"
+			"xpos"			"c-50"
+			"ypos"			"r54"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"DeathsWhite"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"	"DeathsWhite"
 			"font"		"robotoreg40"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%deaths%"
@@ -735,11 +752,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Assists2"
+		"AssistsWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Assists2"
-			"font"		"robotoreg12"
+			"fieldName"	"AssistsWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%assists%"
 			"textAlignment"	"south-east"
@@ -773,11 +790,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Backstabs2"
+		"BackstabsWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Backstabs2"
-			"font"		"robotoreg12"
+			"fieldName"	"BackstabsWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%backstabs%"
 			"textAlignment"	"north-east"		[$WIN32]
@@ -811,11 +828,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Bonus2"
+		"BonusWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Bonus2"
-			"font"		"robotoreg12"
+			"fieldName"	"BonusWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%bonus%"
 			"textAlignment"	"south-east"	[$WIN32]
@@ -849,11 +866,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Captures2"
+		"CapturesWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Captures2"
-			"font"		"robotoreg12"
+			"fieldName"	"CapturesWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%captures%"
 			"textAlignment"	"north-east"
@@ -887,11 +904,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Defenses2"
+		"DefensesWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Defenses2"
-			"font"		"robotoreg12"
+			"fieldName"	"DefensesWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%defenses%"
 			"textAlignment"	"south-east"
@@ -925,11 +942,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Destruction2"
+		"DestructionWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Destruction2"
-			"font"		"robotoreg12"
+			"fieldName"	"DestructionWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%destruction%"
 			"textAlignment"	"north-east"
@@ -963,11 +980,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}						
-		"Domination2"
+		"DominationWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Domination2"
-			"font"		"robotoreg12"
+			"fieldName"	"DominationWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%dominations%"
 			"textAlignment"	"south-east"
@@ -1001,11 +1018,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}						
-		"Headshots2"
+		"HeadshotsWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Headshots2"
-			"font"		"robotoreg12"
+			"fieldName"	"HeadshotsWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%headshots%"
 			"textAlignment"	"north-east"
@@ -1039,11 +1056,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}						
-		"Healing2"
+		"HealingWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Healing2"
-			"font"		"robotoreg12"
+			"fieldName"	"HealingWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%healing%"
 			"textAlignment"	"south-east"
@@ -1077,11 +1094,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}						
-		"Invuln2"
+		"InvulnWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Invuln2"
-			"font"		"robotoreg12"
+			"fieldName"	"InvulnWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%invulns%"
 			"textAlignment"	"north-east"
@@ -1115,11 +1132,11 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}										
-		"Revenge2"
+		"RevengeWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Revenge2"
-			"font"		"robotoreg12"
+			"fieldName"	"RevengeWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%Revenge%"
 			"textAlignment"	"south-east"
@@ -1152,14 +1169,13 @@
 			"pinCorner"	"0"
 			"visible"	"1"
 			"enabled"	"1"
-		}						
+		}
 		
-								
-		"Teleports2"
+		"TeleportsWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"Teleports2"
-			"font"		"robotoreg12"
+			"fieldName"	"TeleportsWhite"
+			"font"		"robotoreg10"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%teleports%"
 			"textAlignment"	"north-east"
@@ -1193,11 +1209,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Support2"
+		"SupportWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support2"
-			"font"			"robotoreg12"
+			"fieldName"		"SupportWhite"
+			"font"			"robotoreg10"
 			"fgcolor"		"255 255 255 255"
 			"labelText"		"%support%"
 			"textAlignment"	"south-east"
@@ -1231,11 +1247,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Damage2"
+		"DamageWhite"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage2"
-			"font"			"robotoreg12"
+			"fieldName"		"DamageWhite"
+			"font"			"robotoreg10"
 			"fgcolor"		"255 255 255 255"
 			"labelText"		"%damage%"
 			"textAlignment"	"south-east"
@@ -1253,159 +1269,104 @@
 		"MapName"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"mapname"
-			"xpos"		"999999"
+			"fieldName"		"mapname"
+			"xpos"			"999999"
 		}	
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"	"gametype"
-			"xpos"		"999999"
-		}
-
 		"Kills"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Deaths"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Assists"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Destruction"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Captures"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Defenses"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Domination"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Domination"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Revenge"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Healing"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Invuln"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Teleports"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Headshots"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Backstabs"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Bonus"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Support"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 		"Damage"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"999999"
 		}
 	}				
 	
@@ -1413,8 +1374,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
@@ -1426,29 +1387,6 @@
 		if_mvm
 		{
 			"visible"		"1"
-		}
-	}
-		"ScoreboardBG"
-	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"ScoreboardBG"
-		"xpos"			"c-263"
-		"xpos_minmode"	"c50"
-		"ypos"			"200"
-		"ypos_minmode"			"152"
-		"zpos"						"-2"
-		"wide"						"526"
-		"wide_minmode"		"257"
-		"tall"						"227"
-		"tall_minmode"		"240"
-		"visible"					"1"		
-		"enabled"					"1"
-		"defaultbgcolor_override"	"0 0 0 170"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"				"999999"
-		if_mvm
-		{
-			"visible"		"0"
 		}
 	}
 }
