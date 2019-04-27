@@ -234,30 +234,3 @@ event HudTournamentSetupPanelClose
 	Animate HudTournamentSetup				Position	"0 70"				Linear 0.0 0.001
 	Animate HudTournamentSetup				Position	"0 -70"				Spline 0.001 0.2
 }
-
-//=================================================================================================================================
-
-event DamagedPlayer
-{
-	Animate fogCrosshair 					FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	Animate fogCrosshair 					FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
-	
-	Animate xHairCirclePulse 				FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	Animate xHairCirclePulse 				FgColor 	"0 0 0 255" 		Linear 0.10 0.10001
-	
-	Animate xHairDotOutline 				FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	Animate xHairDotOutline 				FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
-	
-	Animate xHairDotNew 					FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	Animate xHairDotNew 					FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
-	
-	//Animate KonrWings 					FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	//Animate KonrWings 					FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
-	
-	
-	// Set the second line ("255 255 255 255") to whatever color you have changed
-	// your crosshair to be. So if you crosshair is green, the second line should
-	// also have that same value.
-}
-
-//=================================================================================================================================
