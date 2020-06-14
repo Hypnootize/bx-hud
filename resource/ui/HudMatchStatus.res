@@ -198,7 +198,7 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
+		"xpos"			"9999"
 		"ypos"			"-2"
 		"zpos"			"1"		
 		"wide"			"300"
@@ -289,7 +289,7 @@
 		
 		if_match
 		{
-			"zpos"				"4"
+			"ypos" "-20"
 		}
 		
 		"TimePanelValue"
@@ -307,11 +307,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"ypos"			"8"
-			}
 		}	
 	}
 	

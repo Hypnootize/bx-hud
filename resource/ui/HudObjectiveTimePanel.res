@@ -29,12 +29,7 @@
 		"src_corner_width"	"23"
 			
 		"draw_corner_width"	 "5"
-		"draw_corner_height" "5"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"draw_corner_height" "5"
 	}
 	"TimePanelProgressBar"
 	{
@@ -61,11 +56,6 @@
 		"wrap"			"0"
 		"font"			"roboto10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"ypos"		"25"
-		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -92,11 +82,6 @@
 		"wrap"			"0"
 		"font"			"roboto10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"ypos"		"25"
-		}
 	}			
 	"OvertimeBG"
 	{
@@ -123,11 +108,6 @@
 		"wrap"			"0"
 		"font"			"roboto10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"ypos"		"25"
-		}
 	}
 	
 	"SuddenDeathBG"
@@ -155,11 +135,6 @@
 		"wrap"			"0"
 		"font"			"roboto10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"ypos"		"25"
-		}
 	}	
 	"SetupBG"
 	{
@@ -186,11 +161,6 @@
 		"wrap"					"0"
 		"font"					"roboto12"
 		"fgcolor"				"255 255 255 255"
-		
-		if_match
-		{
-			"ypos"				"22"
-		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
