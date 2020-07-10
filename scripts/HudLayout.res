@@ -1,4 +1,4 @@
-#base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
+#base "../scripts/Crosshairs/Crosshairs.res"
 
 "Resource/HudLayout.res"
 {

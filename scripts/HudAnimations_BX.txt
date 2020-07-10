@@ -171,9 +171,7 @@ event HudSpyDisguiseFadeIn
 {
 	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9 0.1
 	
-	Animate PlayerStatusClassImage			Alpha		"255"				Linear 0.0 0.0	
-	
-	Animate classmodelpanel					wide		"70"				Linear 0.0 0.0
+	Animate PlayerStatusClassImage			Alpha		"255"				Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
@@ -181,8 +179,6 @@ event HudSpyDisguiseFadeOut
 	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9 0.1	
 
 	Animate PlayerStatusClassImage			Alpha		"0"					Linear 0.0 0.0
-	
-	Animate classmodelpanel					wide		"0"					Linear 0.0 0.0
 }
 
 //=================================================================================================================================
