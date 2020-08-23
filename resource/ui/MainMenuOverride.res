@@ -1463,24 +1463,6 @@
 		}
 	}
 
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"17"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
-	}
-
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
