@@ -112,7 +112,7 @@
 		"selectedBgColor_override" 	"0 0 0 130"
 	}
 	
-		"MapInfoContinue2" [$WIN32]
+	"MapInfoContinue2" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue2"
