@@ -1,19 +1,14 @@
+<div align="center">
+
 # BX Hud
+### By Chippy
 
+**[SCREENSHOTS](../screenshots/showcase.md)** -
+**[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
+**[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
 
-<a>LINKS</a>
-====
-
-[TeamFortress.tv](https://www.teamfortress.tv/33738/ive-updated-some-huds)
-
-[Screenshot Album](https://imgur.com/a/gGOow)
-
-[Changelogs](https://github.com/Hypnootize/BX-Hud/commits/master)
-
-[Installation](https://imgur.com/a/w3Ah6)
-
-![](https://i.imgur.com/qFiJPK7.jpg)
-
-<a>CREDITS</a>
-====
-**Created By:** Chippy
+![Main Menu](../screenshots/01_Main_Menu.jpg)
+![Health Buff](../screenshots/06_Health_Buff.jpg)
+![Health & Ammo Low](../screenshots/07_Health_Ammo_Low.jpg)
+![Scoreboard](../screenshots/10_Scoreboard.jpg)
+![Win & Damage](../screenshots/14_Win.jpg)
