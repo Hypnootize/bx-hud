@@ -14,6 +14,8 @@
 ![Scoreboard](../screenshots/10_Scoreboard.jpg)
 ![Win & Damage](../screenshots/14_Win.jpg)
 
+</div>
+
 ## Troubleshooting
 
 ### This HUD won't load on Linux!
