@@ -1,0 +1,246 @@
+//=================================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.2 0.4
+	
+	Animate	PlayerHealthBG					BgColor		"BuffedColor1"		Linear 0.0 0.075
+	Animate	PlayerHealthBG					BgColor		"BuffedColor2"		Linear 0.125 0.075
+	
+	Animate	SpecPlayerHealthBG				BgColor		"BuffedColor1"		Linear 0.0 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"BuffedColor2"		Linear 0.125 0.075
+	
+	Animate	PlayerHealthCrossBG				BgColor		"BuffedColor1"		Linear 0.0 0.075
+	Animate	PlayerHealthCrossBG				BgColor		"BuffedColor2"		Linear 0.125 0.075
+	
+	RunEvent HudHealthBonusPulseLoop		0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 			0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 			0.0
+	StopEvent HudHealthBonusPulseLoop 		0.0
+}
+
+//=================================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
+	
+	Animate	PlayerHealthBG					BgColor		"LowColor1"			Linear 0.0 0.075
+	Animate	PlayerHealthBG					BgColor		"LowColor2"			Linear 0.125 0.075
+	
+	Animate	SpecPlayerHealthBG				BgColor		"LowColor1"			Linear 0.0 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"LowColor2"			Linear 0.125 0.075
+	
+	Animate	PlayerHealthCrossBG				BgColor		"LowColor1"			Linear 0.0 0.075
+	Animate	PlayerHealthCrossBG				BgColor		"LowColor2"			Linear 0.125 0.075
+	
+	RunEvent HudHealthDyingPulseLoop		0.25
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 			0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 			0.0
+	StopEvent HudHealthDyingPulseLoop 		0.0
+	
+	Animate	PlayerHealthBG					BgColor		"0 0 0 130"			Linear 0.0 0.0
+	
+	Animate	SpecPlayerHealthBG				BgColor		"50 50 50 255"		Linear 0.0 0.0
+	
+	Animate	PlayerHealthCrossBG				BgColor		"0 0 0 130"			Linear 0.0 0.0
+
+}
+
+//=================================================================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage			Alpha		"0"					Linear 0.125 0.075
+	
+	Animate	PlayerAmmoBG					BgColor		"LowColor1"			Linear 0.0 0.075
+	Animate	PlayerAmmoBG					BgColor		"LowColor2"			Linear 0.125 0.075
+	
+	RunEvent HudLowAmmoPulseLoop			0.25
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 				0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 				0.0
+	StopEvent HudLowAmmoPulseLoop 			0.0
+	
+	Animate	PlayerAmmoBG					BgColor		"0 0 0 130"			Linear 0.0 0.0
+}
+
+//=================================================================================================================================
+
+event HudMedicCharged
+{
+	Animate	MedicUberPercentBG				BgColor		"FullUberColor1"	Linear 0.0 0.075
+	Animate	MedicUberPercentBG				BgColor		"FullUberColor2"	Linear 0.125 0.075
+	
+	Animate	MedicUberBG						BgColor		"FullUberColor2"	Linear 0.0 0.075
+	Animate	MedicUberBG						BgColor		"FullUberColor1"	Linear 0.125 0.075
+
+	RunEvent HudMedicChargedLoop			0.6
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 				0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 				0.0
+	StopEvent HudMedicChargedLoop 			0.0
+	
+	Animate	ChargeLabel 					FgColor		"255 255 255 255"	Linear 0.0 0.0001
+	
+	Animate	ChargeMeter 					FgColor		"255 255 255 255"	Linear 0.0 0.0001
+	
+	Animate	MedicUberPercentBG				BgColor		"0 0 0 130"			Linear 0.0 0.0
+	
+	Animate	MedicUberBG						BgColor		"0 0 0 130"			Linear 0.0 0.0
+}
+
+//=================================================================================================================================
+
+event FlagOutlineHide
+{
+	Animate OutlineImage					Alpha		"0"					Linear 0.0 0.1
+}
+
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 				0.0
+	Animate OutlineImage					Alpha		"0"					Linear 0.1 0.2
+	
+	Animate OutlineImage					Position	"9999 9999"			Linear 0.1 0.2
+	Animate OutlineImage					Size		"0 0"				Linear 0.1 0.2
+
+	Animate OutlineImage					Position	"9999 9999"			Linear 0.7 0.2
+	Animate OutlineImage					Size		"0 0"				Linear 0.7 0.2
+	
+	Animate OutlineImage					Alpha		"0"					Linear 0.9 0.1
+}
+
+//=================================================================================================================================
+
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"		Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"			Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"					Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9 0.1
+	
+	Animate PlayerStatusClassImage			Alpha		"255"				Linear 0.0 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9 0.1	
+
+	Animate PlayerStatusClassImage			Alpha		"0"					Linear 0.0 0.0
+}
+
+//=================================================================================================================================
+
+event OvertimeShow
+{
+	Animate OvertimeLabel					Alpha		"255"				Linear 0.0 0.1	
+	Animate OvertimeBG						Alpha		"255"				Linear 0.0 0.1	
+}
+
+event HudSnapShotReminderIn
+{
+	Animate ScreenshotPanel					Position	"9999 9999"			Linear 0.0 0.001
+	Animate ScreenshotPanel					Position	"9999 9999"			Spline 0.001 0.2
+}
+
+event HudReplayReminderIn
+{
+	Animate ReplayReminder					Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayReminder					Position	"9999 9999"			Spline 0.001 0.2
+}
+
+event HudReplayReminderIn2
+{
+	Animate ReplayReminder					Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayReminder					Position	"9999 9999"			Spline 0.001 0.2
+}
+
+event HudReplayTipIn
+{
+	Animate ReplayTip						Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayTip						Position	"9999 9999"			Spline 0.001 0.1
+}
+
+event HudReplayTipOut
+{
+	Animate ReplayTip						Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayTip						Position	"9999 9999"			Spline 0.001 0.1
+}
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup				Position	"0 -70"				Linear 0.0 0.001
+	Animate HudTournamentSetup				Position	"0 70"				Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup				Position	"0 70"				Linear 0.0 0.001
+	Animate HudTournamentSetup				Position	"0 -70"				Spline 0.001 0.2
+}
+
+//=================================================================================================================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//=================================================================================================================================
